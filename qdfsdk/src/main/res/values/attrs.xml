@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ShadowLayout">
+        <attr name="sl_cornerRadius" format="dimension"/>
+        <attr name="sl_shadowRadius" format="dimension"/>
+        <attr name="sl_shadowColor" format="color"/>
+        <attr name="sl_dx" format="dimension"/>
+        <attr name="sl_dy" format="dimension"/>
+    </declare-styleable>
+
+    <attr name="iconSize" format="dimension" />
+    <attr name="iconMargin" format="dimension" />
+    <attr name="iconSrc" format="reference" />
+    <attr name="duration_max" format="integer" />
+
+    <declare-styleable name="Music">
+        <attr name="musicimg" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="voisePlayingIconAttr">
+        <attr name="pointer_color" format="color" />
+        <attr name="pointer_num" format="integer" />
+        <attr name="pointer_width" format="float" />
+        <attr name="pointer_speed" format="integer" />
+    </declare-styleable>
+
+    <attr name="progressTextSize" format="dimension" />
+    <attr name="progressTextColor" format="color" />
+    <attr name="progressTextOffset" format="dimension" />
+    <attr name="progressNormalColor" format="color" />
+    <attr name="progressReachColor" format="color" />
+    <attr name="progressNormalSize" format="dimension" />
+    <attr name="progressReachSize" format="dimension" />
+    <attr name="progressReachWidth" format="dimension" />
+    <attr name="progressNormalWidth" format="dimension" />
+    <attr name="progressTextVisible" format="boolean" />
+    <attr name="progressTextSkewX" format="dimension" />
+    <attr name="progressTextPrefix" format="string" />
+    <attr name="progressTextSuffix" format="string" />
+    <attr name="innerBackgroundColor" format="color" />
+    <!-- end -->
+
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="random_1">#C9D0D4</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="grey">#333333</color>
+    <color name="black">#000000</color>
+
+    <!--蒙版-->
+    <color name="shadow">#cc222222</color>
+    <color name="line_color">#EBEBEB</color>
+    <color name="title_color">#2E2E2E</color>
+    <color name="sub_title_color">#4D4D4D</color>
+    <color name="content_color">#999999</color>
+    <color name="main_color">#FF5C11</color>
+    <color name="blue_color">#32AAFF</color>
+    <color name="layout_color">#F7F7F7</color>
+    <color name="delete_red">#FF3B30</color>
+
+    <color name="color_middle">#ccf5f1</color>
+    <color name="alert_press">#E8EAEB</color>
+
+    <color name="address_check">#FFF7F1</color>
+
+    <color name="style_color">#27DA6D</color><!--主题色-->
+    <color name="bottom_container_bg">#99000000</color><!--主题色-->
+
+</resources>

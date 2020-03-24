@@ -1,0 +1,2 @@
+include ':qdfsdk'
+rootProject.name='VehicleSDK'

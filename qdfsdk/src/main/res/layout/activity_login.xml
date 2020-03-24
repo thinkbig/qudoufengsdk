@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/xdp_60.0"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/xdp_40.0" />
+
+        <EditText
+            android:id="@+id/et_phone"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/xdp_45.0"
+            android:layout_marginLeft="@dimen/xdp_30.0"
+            android:layout_marginTop="@dimen/xdp_30.0"
+            android:layout_marginRight="@dimen/xdp_30.0"
+            android:background="@null"
+            android:hint="请输入手机号码"
+            android:inputType="phone"
+            android:maxLength="11"
+            android:textColor="@color/title_color"
+            android:textColorHint="@color/content_color"
+            android:textSize="@dimen/xsp_14" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/xdp_0.5"
+            android:layout_marginLeft="@dimen/xdp_30.0"
+            android:layout_marginRight="@dimen/xdp_30.0"
+            android:background="@color/line_color" />
+
+        <LinearLayout
+            android:id="@+id/ll_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/xdp_30.0"
+            android:layout_marginTop="@dimen/xdp_20.0"
+            android:layout_marginRight="@dimen/xdp_30.0"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/et_pass"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/xdp_45.0"
+                android:background="@null"
+                android:hint="请输入密码"
+                android:inputType="textPassword"
+                android:maxLength="11"
+                android:textColor="@color/title_color"
+                android:textColorHint="@color/content_color"
+                android:textSize="@dimen/xsp_14" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/xdp_0.5"
+                android:background="@color/line_color" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/xdp_30.0"
+            android:layout_marginTop="@dimen/xdp_20.0"
+            android:layout_marginRight="@dimen/xdp_30.0"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/et_code"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/xdp_45.0"
+                    android:background="@null"
+                    android:hint="请输入验证码"
+                    android:inputType="number"
+                    android:maxLength="4"
+                    android:textColor="@color/title_color"
+                    android:textColorHint="@color/content_color"
+                    android:textSize="@dimen/xsp_14" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/xdp_0.5"
+                    android:background="@color/line_color" />
+
+            </LinearLayout>
+            <!--            android:background="@drawable/main_color_stroke_20dp"-->
+            <TextView
+                android:id="@+id/tv_code"
+                android:layout_width="@dimen/xdp_120.0"
+                android:layout_height="@dimen/xdp_32.0"
+
+                android:gravity="center"
+                android:text="获取验证码"
+                android:textColor="@color/main_color"
+                android:textSize="@dimen/xsp_14" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_login_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/xdp_30.0"
+            android:layout_marginRight="@dimen/xdp_30.0"
+            android:gravity="right"
+            android:paddingTop="@dimen/xdp_10.0"
+            android:paddingBottom="@dimen/xdp_10.0"
+            android:text="密码登录"
+            android:textColor="@color/sub_title_color"
+            android:textSize="@dimen/xsp_14" />
+
+
+        <!--        android:background="@drawable/login_shape"-->
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/xdp_45.0"
+            android:layout_marginLeft="@dimen/xdp_30.0"
+            android:layout_marginTop="@dimen/xdp_40.0"
+            android:layout_marginRight="@dimen/xdp_30.0"
+
+            android:gravity="center"
+            android:text="登录/注册"
+            android:textColor="@color/white"
+            android:textSize="@dimen/xsp_18" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:paddingLeft="@dimen/xdp_20.0"
+        android:paddingTop="@dimen/xdp_30.0"
+        android:paddingRight="@dimen/xdp_20.0"
+        android:paddingBottom="@dimen/xdp_20.0">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </FrameLayout>
+
+</RelativeLayout>
